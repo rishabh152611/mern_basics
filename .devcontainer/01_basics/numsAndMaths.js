@@ -1,4 +1,4 @@
-const score =100 //data types is not explicitly defined 
+const score =10000//data types is not explicitly defined 
 const balance = new Number(100) //a variable is defined which is strictly of types number
 // console.log(balance.toString())
 // console.log(typeof balance)
