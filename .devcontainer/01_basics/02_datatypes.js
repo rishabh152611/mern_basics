@@ -14,6 +14,7 @@ let isaLoggedIn = false
 /* symbols-> unique
 
 */
+console.log(name)
 console.log (typeof null)//returns object
 console.log(typeof undefined) //returns undefined
 
