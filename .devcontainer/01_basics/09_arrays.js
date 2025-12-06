@@ -26,3 +26,8 @@ const marvelHeros = ["spiderman","thor","hulk"]
  const dcHeros = ["batman","flash",'wonderwoman']
  const allnewheros = [...marvelHeros,...dcHeros]//glass breaking analogies
  console.log(allnewheros)
+const no = [1,2,3,[4,5,6,7],[2,[2,3,4,5]]]
+const newarr = no.flat(Infinity)//important
+
+console.log(newarr)
+console.log(Array.from("rishabh"))
