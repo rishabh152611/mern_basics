@@ -27,3 +27,15 @@ const object3 = Object.assign({} ,obj1,obj2)//merger
 console.log(object3)
 const obj3 = {...obj1,...obj2}//merger using spread
 console.log(obj3)
+//DESTUCTURING OF OBJECTS
+const course ={
+    cname: "jsby chai aur code",
+
+    courseprice: 0,
+
+}
+//proper access syntax
+
+const {courseprice:price}=course//important
+console.log(price)
+
