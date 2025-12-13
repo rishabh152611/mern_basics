@@ -1,32 +1,35 @@
-// // //fuction to return second element of an array
-// // const numbers = [10,20,30]
-// // function secondElement(myarray){
-// //     return myarray[1];
+// // // //fuction to return second element of an array
+// // // const numbers = [10,20,30]
+// // // function secondElement(myarray){
+// // //     return myarray[1];
+// // // }
+// // // console.log(secondElement(numbers))
+
+
+// // ///// let ,var and const
+// // let a =10
+// // if(true){
+// // let a =30
+// // const b =20
+// // var c = 30
+// // console.log(a)
 // // }
-// // console.log(secondElement(numbers))
+// // console.log(a)//no output
 
-
-// ///// let ,var and const
-// let a =10
-// if(true){
-// let a =30
-// const b =20
-// var c = 30
-// console.log(a)
+// //dom is document overview model
+// //****************interesting example 
+// function addone(num){
+//     return num+1
 // }
-// console.log(a)//no output
+// console.log(addone(5))
+// const addtwo = function(num){
+//     return num+2
+// }
 
-//dom is document overview model
-//****************interesting example 
-function addone(num){
-    return num+1
+
+// console.log(addtwo(5))
+
+// // */
+for (const val of arr) {
+    console.log(val)
 }
-console.log(addone(5))
-const addtwo = function(num){
-    return num+2
-}
-
-
-console.log(addtwo(5))
-
-// */
